@@ -2,21 +2,43 @@
 <html>
   <head>
     <link rel="icon" href="./Whyareyouhere.jpg">
-    <span class="material-icons-outlined">info</span>
+    <span class="material-icons">info</span>
     <title>The Weirdo Site: Homepage</title>
     <div id="Main-Content">
     <a href="./About.html" target="_self">About</a>
     </div>
+    <style>
+      .grid-container {
+  		display: grid;
+  		grid-template-columns: auto auto auto;
+        grid-template-rows: auto 0 0;
+  		padding: 10px;
+	  }
+	  .grid-item {
+  		padding: 20px;
+	  }
+    </style>
   </head>
 <body>
   <div id="Main-Content">
   <h1>Homepage</h1>
-  <h2>Our Most Popular Video<h2>
-  <iframe width="400" height="250" src="https://www.youtube.com/embed/T6uTOV5sxwY" title="DDBSD - War Zone - By Withersharkk"></iframe>
-  <h2>Our Newest Video<h2>
-  <iframe width="400" height="250" src="https://www.youtube.com/embed/OkeXoEVkSWA" title="Dark Corners - Quadro - by Withersharkk"></iframe>
-  <h2>Our Latest Game Trailer<h2>
-  <iframe width="400" height="250" src="https://www.youtube.com/embed/Gsx28sLYDMY" title="Dark Corners Prototype Trailer"><iframe>
+  <div id="grid-container">
+  
+  <div id="grid-item">
+  <h2>Our Latest Game Trailer</h2>
+  <iframe width="400" height="250" src="https://www.youtube.com/embed/Gsx28sLYDMY" title="Dark Corners Prototype Trailer"></iframe>
+  </div>
+  
+  <div id="grid-item">
+  <!--Other one got Privated.(403/404)-->
+  </div>
+  
+  <div id="grid-item">
+  <h2>Our Most Popular Video</h2>
+  <iframe style="display: grid;" width="400" height="250" src="https://www.youtube.com/embed/T6uTOV5sxwY" title="DDBSD - War Zone - By Withersharkk"></iframe>
+  </div>
+  
+  </div>
     <h1>Random Things</h1>
     <h2>Jokes</h2>
   </div>
